@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 1,
+    "topRow": 6,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -61,34 +61,35 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713507906187,
+    "columnUpdatedAt": 1713508242437,
+    "originalBottomRow": 39,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
-    "mobileBottomRow": 29,
-    "widgetName": "Playlists",
+    "mobileBottomRow": 31,
+    "widgetName": "All_Playlists",
     "defaultPageSize": 0,
     "columnOrder": [
+        "PlaylistID",
         "Name",
         "Description",
         "CreationDate",
-        "PlaylistID",
-        "UserID",
         "Email",
-        "FullName"
+        "FullName",
+        "UserID"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 29,
+    "bottomRow": 39,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
-    "mobileRightColumn": 39,
-    "parentColumnSpace": 11.734375,
+    "mobileRightColumn": 38,
+    "parentColumnSpace": 12.359375,
     "dynamicTriggerPathList": [],
     "borderWidth": "1",
     "primaryColumns": {
         "CreationDate": {
-            "computedValue": "{{Playlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CreationDate\"]))}}",
+            "computedValue": "{{All_Playlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CreationDate\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "CreationDate",
@@ -119,7 +120,7 @@
             "verticalAlignment": "CENTER"
         },
         "PlaylistID": {
-            "computedValue": "{{Playlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PlaylistID\"]))}}",
+            "computedValue": "{{All_Playlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"PlaylistID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "PlaylistID",
@@ -135,7 +136,7 @@
             "allowCellWrapping": false,
             "index": 3,
             "isDiscardVisible": true,
-            "isVisible": false,
+            "isVisible": true,
             "label": "PlaylistID",
             "columnType": "number",
             "thousandSeparator": true,
@@ -150,7 +151,7 @@
             "verticalAlignment": "CENTER"
         },
         "Description": {
-            "computedValue": "{{Playlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Description\"]))}}",
+            "computedValue": "{{All_Playlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Description\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Description",
@@ -181,7 +182,7 @@
             "verticalAlignment": "CENTER"
         },
         "Email": {
-            "computedValue": "{{Playlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Email\"]))}}",
+            "computedValue": "{{All_Playlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Email\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Email",
@@ -215,7 +216,7 @@
             "verticalAlignment": "CENTER"
         },
         "UserID": {
-            "computedValue": "{{Playlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"UserID\"]))}}",
+            "computedValue": "{{All_Playlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"UserID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "UserID",
@@ -249,7 +250,7 @@
             "verticalAlignment": "CENTER"
         },
         "FullName": {
-            "computedValue": "{{Playlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"FullName\"]))}}",
+            "computedValue": "{{All_Playlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"FullName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "FullName",
@@ -283,7 +284,7 @@
             "verticalAlignment": "CENTER"
         },
         "Name": {
-            "computedValue": "{{Playlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
+            "computedValue": "{{All_Playlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Name",
@@ -314,23 +315,24 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "key": "h7e4vtaxuq",
+    "key": "6esxs447h9",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 61,
+    "rightColumn": 50,
     "textSize": "0.875rem",
-    "widgetId": "tv59pbmqyp",
+    "widgetId": "8whi5fi5xp",
     "minWidth": 450,
-    "tableData": "{{get_Playlists.data}}",
+    "tableData": "{{get_all_playlists.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
     "renderMode": "CANVAS",
-    "mobileTopRow": 1,
+    "mobileTopRow": 3,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "mobileLeftColumn": 5,
+    "originalTopRow": 6,
+    "mobileLeftColumn": 4,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }

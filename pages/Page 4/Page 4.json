@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Collaborators to playlist",
-    "slug": "collaborators-to-playlist",
+    "name": "Page 4",
+    "slug": "page-4",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 940,
+          "bottomRow": 890,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 55,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 570,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,18 +28,30 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Collaborators to playlist_get_Playlists",
-              "name": "get_Playlists",
+              "id": "Page 4_get_all_playlists",
+              "name": "get_all_playlists",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Page 4_get_songs_in_playlist",
+              "name": "get_songs_in_playlist",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "search_songs.formData"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Collaborators to playlist",
+        "id": "Page 4",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -51,5 +62,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "66204444d36bb373b3fbc893_66204445d36bb373b3fbc895"
+  "gitSyncId": "66220c3f71031e32930874d8_66220c4a71031e32930874e3"
 }

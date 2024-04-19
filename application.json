@@ -9,6 +9,10 @@
       "isDefault": true
     },
     {
+      "id": "Page 4",
+      "isDefault": false
+    },
+    {
       "id": "Chart",
       "isDefault": false
     },

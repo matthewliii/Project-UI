@@ -14,6 +14,26 @@
     },
     {
       "id": "Playlists",
+      "isDefault" : false
+    },
+    {
+      "id": "Delete",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": false
+    },
+    {
+      "id": "Personal Library",
+      "isDefault": false
+    },
+    {
+      "id": "Add",
+      "isDefault": false
+    },
+    {
+      "id": "Full Library",
       "isDefault": false
     }
   ],
@@ -33,7 +53,11 @@
   "publishedAppLayout": {
     "type": "DESKTOP"
   },
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,

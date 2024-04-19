@@ -3,6 +3,10 @@
     {
       "id": "Collaborators to playlist",
       "isDefault": true
+    },
+    {
+      "id": "Chart",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -15,6 +19,9 @@
   },
   "color": "#FFEBFB",
   "icon": "cloud",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

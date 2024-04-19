@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "Collaborators to playlist",
+      "id": "Collaborators",
       "isDefault": true
     },
     {
@@ -10,6 +10,26 @@
     },
     {
       "id": "Playlists",
+      "isDefault": false
+    },
+    {
+      "id": "Delete",
+      "isDefault": false
+    },
+    {
+      "id": "Home Page",
+      "isDefault": false
+    },
+    {
+      "id": "Personal Library",
+      "isDefault": false
+    },
+    {
+      "id": "Add",
+      "isDefault": false
+    },
+    {
+      "id": "Full Libary",
       "isDefault": false
     }
   ],
@@ -29,7 +49,11 @@
   "publishedAppLayout": {
     "type": "DESKTOP"
   },
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,

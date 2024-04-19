@@ -7,6 +7,14 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Chart",
+      "isDefault": false
+    },
+    {
+      "id": "Playlists",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -19,6 +27,12 @@
   },
   "color": "#FFEBFB",
   "icon": "cloud",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

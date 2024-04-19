@@ -2,6 +2,10 @@
   "pages": [
     {
       "id": "Collaborators to playlist",
+      "isDefault": false
+    },
+    {
+      "id": "Page1",
       "isDefault": true
     }
   ],

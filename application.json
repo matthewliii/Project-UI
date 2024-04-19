@@ -2,11 +2,11 @@
   "pages": [
     {
       "id": "Collaborators to playlist",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Page 4",
-      "isDefault": false
+      "isDefault": true
     }
   ],
   "viewMode": false,

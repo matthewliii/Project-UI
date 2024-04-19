@@ -3,6 +3,26 @@
     {
       "id": "Collaborators to playlist",
       "isDefault": true
+    },
+    {
+      "id": "Delete",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": false
+    },
+    {
+      "id": "Personal Library",
+      "isDefault": false
+    },
+    {
+      "id": "Add",
+      "isDefault": false
+    },
+    {
+      "id": "Full Library",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -15,7 +35,11 @@
   },
   "color": "#FFEBFB",
   "icon": "cloud",
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,

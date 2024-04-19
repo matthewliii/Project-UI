@@ -3,6 +3,10 @@
     {
       "id": "Collaborators to playlist",
       "isDefault": true
+    },
+    {
+      "id": "Page 4",
+      "isDefault": false
     }
   ],
   "viewMode": false,

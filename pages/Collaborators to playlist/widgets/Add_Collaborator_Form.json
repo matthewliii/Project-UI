@@ -35,7 +35,10 @@
         {"key": "schema.__root_schema__.defaultValue"},
         {"key": "schema.__root_schema__.borderRadius"},
         {"key": "schema.__root_schema__.cellBorderRadius"},
-        {"key": "schema.__root_schema__.children.UserID.defaultValue"}
+        {"key": "schema.__root_schema__.children.UserID.defaultValue"},
+        {"key": "schema.__root_schema__.children.FullName.defaultValue"},
+        {"key": "schema.__root_schema__.children.FullName.borderRadius"},
+        {"key": "schema.__root_schema__.children.FullName.accentColor"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -134,7 +137,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 80,
+    "originalBottomRow": 87,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -262,6 +265,28 @@
                 "sourceData": 38,
                 "fieldType": "Number Input"
             },
+            "FullName": {
+                "labelTextSize": "0.875rem",
+                "identifier": "FullName",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.FullName))(Add_Collaborator_Form.sourceData, Add_Collaborator_Form.formData, Add_Collaborator_Form.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Add_Collaborator_Form.sourceData, Add_Collaborator_Form.formData, Add_Collaborator_Form.fieldState)}}",
+                "dataType": "string",
+                "accessor": "FullName",
+                "isVisible": true,
+                "label": "Full Name",
+                "originalIdentifier": "FullName",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Add_Collaborator_Form.sourceData, Add_Collaborator_Form.formData, Add_Collaborator_Form.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 6,
+                "isDisabled": false,
+                "sourceData": "Giffy Melwall",
+                "fieldType": "Text Input"
+            },
             "Name": {
                 "labelTextSize": "0.875rem",
                 "identifier": "Name",
@@ -310,7 +335,7 @@
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
-    "bottomRow": 80,
+    "bottomRow": 87,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Add Collaborator",
